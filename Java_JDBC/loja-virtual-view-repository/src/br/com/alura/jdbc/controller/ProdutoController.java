@@ -19,7 +19,6 @@ public class ProdutoController {
 	public void deletar(Integer id) {
 		this.produtoDAO.deletar(id);
 	}
-
 	public void salvar(Produto produto) {
 		this.produtoDAO.salvar(produto);
 	}
